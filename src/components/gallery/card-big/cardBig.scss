@@ -1,0 +1,126 @@
+.gallery-card-big {
+  width: 680px;
+  height: 200px;
+  padding-left: 5px;
+  padding-right: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 3px;
+  box-sizing: content-box;
+  border: 1px solid #e2e2e2;
+  background-color: #ffffff;
+  font-family: Montserrat;
+
+  .img-wrapper {
+    position: relative;
+    text-align: center;
+    .rectangle {
+      img,
+      .exclusive {
+        position: absolute;
+        top: 2%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      .exclusive {
+        width: 89px;
+        height: 15px;
+        color: rgba(255, 255, 255, 0.87);
+        font-size: 12px;
+        font-weight: 400;
+      }
+    }
+    .video {
+      width: 60px;
+      height: 60px;
+      position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      top: 50%;
+      left: 50%;
+      border-radius: 50%;
+      transform: translate(-50%, -50%);
+      background-color: rgba(0, 0, 0, 0.4);
+      cursor: pointer;
+    }
+  }
+
+  .content-wrapper {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .logo-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .score-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .score {
+        width: 57px;
+        height: 18px;
+        color: #000000;
+        font-size: 11px;
+        font-weight: 400;
+        letter-spacing: 0.22px;
+        line-height: 18px;
+      }
+
+      .score-num {
+        width: 41px;
+        height: 30px;
+        margin-top: -25px;
+        color: #000000;
+        font-size: 25px;
+        font-weight: 700;
+        letter-spacing: 0.5px;
+      }
+    }
+  }
+
+  .benefits {
+    color: rgba(34, 34, 34, 0.87);
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 7px;
+  }
+
+  .bottom-wrapper {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+    align-items: center;
+
+    .read {
+      color: #ff6a56;
+      font-size: 14px;
+      font-weight: 400;
+      margin-left: 20px;
+    }
+
+    .order-btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 150px;
+      height: 40px;
+      border-radius: 3px;
+      background-image: linear-gradient(180deg, #ff8373 0%, #ff6a56 100%);
+      cursor: pointer;
+
+      .order-now {
+        color: #ffffff;
+        font-size: 18px;
+        font-weight: 500;
+      }
+    }
+  }
+}

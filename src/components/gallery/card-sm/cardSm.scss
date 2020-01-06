@@ -1,0 +1,138 @@
+.gallery-card-sm {
+  width: 336px;
+  height: 311px;
+  box-shadow: 0 2px 12px rgba(192, 182, 182, 0.5);
+  border-radius: 3px;
+  background-color: #ffffff;
+  font-family: Montserrat;
+
+  .img-wrapper {
+    position: relative;
+    text-align: center;
+    .rectangle {
+      img,
+      .exclusive {
+        position: absolute;
+        top: 2%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      .exclusive {
+        width: 89px;
+        height: 15px;
+        color: rgba(255, 255, 255, 0.87);
+        font-size: 12px;
+        font-weight: 400;
+      }
+    }
+
+    .discount {
+      width: 131px;
+      height: 25px;
+      border-radius: 0 0 3px;
+      background-color: rgba(0, 0, 0, 0.43);
+      position: absolute;
+      top: 0;
+
+      span {
+        width: 70px;
+        height: 14px;
+        color: #ffffff;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 13px;
+      }
+    }
+
+    .video {
+      width: 60px;
+      height: 60px;
+      position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      top: 50%;
+      left: 50%;
+      border-radius: 50%;
+      transform: translate(-50%, -50%);
+      background-color: rgba(0, 0, 0, 0.4);
+      cursor: pointer;
+
+      img {
+        width: 13px;
+        height: 21px;
+      }
+    }
+  }
+
+  .content-wrapper {
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .benefits {
+      color: rgba(34, 34, 34, 0.87);
+      font-size: 14px;
+      font-weight: 400;
+      margin-left: 7px;
+    }
+
+    .order-btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 88px;
+      height: 32px;
+      border-radius: 3px;
+      background-color: #ff6a56;
+      cursor: pointer;
+
+      .order-now {
+        color: #ffffff;
+        font-size: 13px;
+        font-weight: 500;
+      }
+    }
+  }
+
+  .logo-wrapper {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .score-wrapper {
+      .score {
+        width: 60px;
+        height: 13px;
+        color: rgba(34, 34, 34, 0.87);
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 13px;
+      }
+
+      .score-num {
+        width: 23px;
+        height: 18px;
+        color: #222222;
+        font-size: 15px;
+        font-weight: 700;
+        letter-spacing: -0.25px;
+        margin-left: 2px;
+      }
+
+      .read {
+        width: 89px;
+        height: 15px;
+        color: #ff6a56;
+        font-size: 12px;
+        font-weight: 400;
+        margin-top: -3px;
+      }
+    }
+  }
+}
